@@ -1,7 +1,7 @@
 #http://arush.me Source Code
 
 This website is my portfolio website designed and implemented by me.
-It is my first web project and inckudes a lot of experimentation.
+It is my first web project and includes a lot of experimentation.
 
 ##Current Implementation
 Currently, the site is just a portfolio site, and thus does not have much of a backend. It uses JQuery to animate logos, but otherewise is purely HTML and CSS.
