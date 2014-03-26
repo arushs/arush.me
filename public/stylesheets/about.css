@@ -1,0 +1,55 @@
+html {
+    height:100%;
+}
+
+body{
+    background-image:url(/images/background.png);
+}
+#about{
+    font-size:4em;
+    text-align:center;
+}
+
+#uwpic1 {
+    float:left;
+    height:9em;
+    width:9em;
+}
+
+#uwpic2 {
+    float:right;
+    height:9em;
+    width:9em;
+}
+
+#uwECpic1 {
+    float:left;
+    height:7em;
+    width:13em;
+}
+
+#uwECpic2 {
+    float:right;
+    height:7em;
+    width:13em;
+}
+
+#abouttext {
+    font-size: 2em;
+    text-align: center;
+}
+
+#codetext1{
+    float:right;
+    font-size:2em;
+}
+
+#codetext2{
+    float:left;
+    font-size:2em;
+}
+
+#footer {
+	position:fixed;
+	color:gray;
+}

@@ -1,0 +1,25 @@
+extends layout
+blocks content
+extends layout
+
+block content
+	link(type="text/css" rel="stylesheet" href="stylesheets/contact.css")
+	link(type="text/css" rel="stylesheet" href="stylesheets/simpletextrotator.css")
+	script(src="javascripts/contact_script.js")
+	script(type="text/javascript" src="javascripts/simple-text-rotator.js")
+
+	div
+	div#contactgrid
+		div.contactrow
+			div.well#titletext Contact.
+			br
+			br
+			br
+			a(href="http://facebook.com/arushs" target="_blank").
+				<img src="images/facebook.png" class="img1">
+			a(href="http://linkedin.com/in/arushs" target="_blank").
+				<img src="images/Linkedin.png" class="img1 socialicon">
+			a(href="http://github.com/arushs" target="_blank").
+				<img src="images/github.png" class="img1 socialicon">
+			a(href="mailto:arushshankar@gmail.com" target="_blank").
+				<img src="images/gmail.png" class="img1 socialicon">

@@ -1,0 +1,12 @@
+#nametext {
+    font-size:2.5em;
+    text-align:center;
+    width:98%;
+    color:rgb(140,140,140);
+    position:absolute;
+    height:20%;
+}
+
+body{
+    background-image: url(/images/background.png);
+}

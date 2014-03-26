@@ -1,0 +1,36 @@
+html {
+    height:100%;
+}
+
+#introbox {
+	height:100%;
+	display:table;
+	margin:auto;
+}
+
+#introduction {
+	display:table-cell;
+	vertical-align:middle;
+}
+
+#intropicture {
+	height:30em;
+	float:center;
+}
+
+#introtext {
+	font-family:Courier;
+	font-size:4em;
+	float:center;
+	text-align:center;
+}
+
+#introname {
+    color:rgb(120,120,120);
+	font-family:Helvetica;
+    font-size:1.5em;
+}
+
+#footer {
+	position:fixed;
+}
