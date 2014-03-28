@@ -2,9 +2,6 @@ html {
     height:100%;
 }
 
-body{
-    background-image:url(/images/background.png);
-}
 #about{
     font-size:4em;
     text-align:center;
