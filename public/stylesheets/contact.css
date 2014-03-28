@@ -1,10 +1,19 @@
-.img1 {
+.img {
     float:center;
     margin-right:2em;
     margin-left:2em;
     length:8em;
     width:8em;
+    margin-bottom:1em;
+}
 
+.LN {
+    float:center;
+    margin-right:2em;
+    margin-left:2em;
+    length:9em;
+    width:9em;
+    margin-bottom:1em;
 }
 
 #contactgrid {

@@ -14,7 +14,7 @@ html {
 }
 
 #intropicture {
-	height:30em;
+	max-height:30em;
 	float:center;
 }
 
