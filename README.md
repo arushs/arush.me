@@ -11,7 +11,8 @@ I have decided to use [Node.js](http://nodejs.org) along with [ExpressJS](http:/
 as it is much easier to use. Plus I can program the back-end in javascript much more easily.
 
 ##Future Plans
-None as of yet, but I do hope to expand on the website using JQuery.
+I plan to do a full rework of the website in the next 2 months. 
+It will become a static website hosted on an S3 bukkit. The current style will be completely redone
 
 ##Starting
 To start the website, run npm install, then npm start.
