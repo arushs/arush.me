@@ -11,7 +11,7 @@ I have decided to use [Node.js](http://nodejs.org) along with [ExpressJS](http:/
 as it is much easier to use. Plus I can program the back-end in javascript much more easily.
 
 ##Future Plans
-I plan to do a full rework of the website in the next 2 months. 
+I am redoing the whole website.
 It will become a static website hosted on an S3 bukkit. The current style will be completely redone
 
 ##Starting
