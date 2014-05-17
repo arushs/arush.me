@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <meta name="description" content="Bentley Barker's personal web page.">
+
+        <title>Arush Shankar</title>
+        <link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+        <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+<!--        <link href="../public/stylesheets/animate.css" type="text/css" rel="stylesheet">-->
+        <link href="./stylesheets/layout.css" type="text/css" rel="stylesheet">
+        <link href='http://fonts.googleapis.com/css?family=PT+Sans' rel='stylesheet'type='text/css'>
+        <link rel="SHORTCUT ICON" href="../b_logo.ico">
+        <link rel="stylesheet" type="text/css" href="jquery.fullPage.css" />
+    </head>
+        <body>
+            <div id="fullpage">
+                <div class="section" id="first">
+                    <td style="vertical-align:top">
+                            <div class="bg-primary"></div>
+    <!--                        <div class="arrow col-xs-4 col-xs-offset-4"><a href="#minibio"><i class="fa fa-angle-down fa-5x"></i></a></div>-->
+                            <div class="top">
+                                <h1 class="text-center">Arush Shankar</h1>
+                                <p class="tagline text-center">Hello. I'm Arush Shankar I like to learn.</p>
+                                <ul class="text-center list-inline col-md-8 col-md-offset-2 social">
+                                <li><a href="mailto:arushshankar@gmail.com" role="button" target="_blank" class="btn-social btn-email"><i class="fa fa-envelope-o fa-2x" id="social4"></i></a></li>
+                                <li><a href="http://github.com/arushs" role="button" target="_blank" class="btn-social btn-github"><i class="fa fa-github fa-2x" id="social2"></i></a></li>
+                                <li><a href="http://twitter.com/arushshankar" role="button" target="_blank" class="btn-social btn-twitter"><i class="fa fa-twitter fa-2x" id="social3"></i></a></li>
+                                <li><a href="http://www.linkedin.com/in/arushs" role="button" target="_blank" class="btn-social btn-linkedin"><i class="fa fa-linkedin fa-2x" id="social1"></i></a></li>
+                              </ul>
+                            </div>              
+                    </td>
+                </div>
+                <div class="section">Some section</div>
+                <div class="section">Some section</div>
+                <div class="section">Some section</div>
+            </div>
+        </body>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script src="vendors/jquery.easings.min.js"></script>
+        <script type="text/javascript" src="vendors/jquery.slimscroll.min.js"></script>
+        <script type="text/javascript" src="jquery.fullPage.js"></script>
+        <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    
+    <script>   
+        $(document).ready(function() {
+            $('#fullpage').fullpage();
+            
+            $("#social1").mouseover(function(){
+                $("#first").css("background","rgb(71, 117, 183)")});
+            $("#social2").mouseover(function(){
+              $("#first").css("background","#4a535b").delay(1000)});
+            $("#social3").mouseover(function(){
+              $("#first").css("background","#2094ca")});
+            $("#social4").mouseover(function(){
+              $("#first").css("background","#d14836")});
+        });
+    </script>
+    
+</html>
